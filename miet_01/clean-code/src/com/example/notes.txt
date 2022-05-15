@@ -1,0 +1,13 @@
+
+
+
+Don't encode types in names
+
+Name should tell the intent
+
+Avoid prefix to names
+
+Dont use same name to mean two different things
+
+Avoid - Too long names
+
