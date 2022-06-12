@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer>
+    <name>Jared</name>
+    <address>
+        <street>123 Any Street</street>
+        <city>Any Town</city>
+    </address>
+</customer>

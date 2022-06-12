@@ -15,7 +15,7 @@ public class JaxbCarMain {
 
       Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 
-      //jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+      jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
       Car car = new Car();
       car.setId(1);
