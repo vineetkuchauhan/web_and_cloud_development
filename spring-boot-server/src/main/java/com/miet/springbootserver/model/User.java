@@ -1,46 +1,25 @@
 package com.miet.springbootserver.model;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
 public class User {
-  private String userName;
+
   private int id;
+
+  private String userName;
   private String address;
-
-  public User(String userName, int id, String address) {
-    this.userName = userName;
-    this.id = id;
-    this.address = address;
-  }
-
-  public String getUserName() {
-    return userName;
-  }
-
-  public void setUserName(String userName) {
-    this.userName = userName;
-  }
-
-  public int getId() {
-    return id;
-  }
-
-  public void setId(int id) {
-    this.id = id;
-  }
-
-  public String getAddress() {
-    return address;
-  }
-
-  public void setAddress(String address) {
-    this.address = address;
-  }
 
   @Override
   public String toString() {
     return "User{" +
-        "userName='" + userName + '\'' +
-        ", id=" + id +
+        "id=" + id +
+        ", userName='" + userName + '\'' +
         ", address='" + address + '\'' +
         '}';
   }

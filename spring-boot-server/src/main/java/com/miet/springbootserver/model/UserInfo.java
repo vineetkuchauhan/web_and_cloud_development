@@ -1,25 +1,23 @@
 package com.miet.springbootserver.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter
+@Setter
+@AllArgsConstructor
 public class UserInfo {
 
   private int id;
-
-  public UserInfo(int id) {
-    this.id = id;
-  }
-
-  public int getId() {
-    return id;
-  }
-
-  public void setId(int id) {
-    this.id = id;
-  }
+  private String status;
 
   @Override
   public String toString() {
     return "UserInfo{" +
         "id=" + id +
+        ", status='" + status + '\'' +
         '}';
   }
 }

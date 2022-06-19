@@ -1,0 +1,193 @@
+{
+	"id": "4a7f0a45-b2eb-1356-2483-f0ecf35235ed",
+	"name": "miet",
+	"description": "",
+	"order": [
+		"116ecef6-c09b-6109-a017-871f0e608d68",
+		"fdd52274-6af3-b84a-2d28-11dda83418e6",
+		"7343ca5a-0844-e74c-f405-a55060725219",
+		"8397f308-3f6c-05c2-a146-28e8d78c4d12",
+		"3f85b1d7-7b08-d901-cb8c-9da4a352358a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1655530830986,
+	"owner": "1203228",
+	"public": false,
+	"requests": [
+		{
+			"id": "116ecef6-c09b-6109-a017-871f0e608d68",
+			"headers": "Content-Type: text/plain\nAccept: text/plain\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "text/plain",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "text/plain",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/servers/info",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4a7f0a45-b2eb-1356-2483-f0ecf35235ed",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/servers/info",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655530844247,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3f85b1d7-7b08-d901-cb8c-9da4a352358a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users?id=111",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "111",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "4a7f0a45-b2eb-1356-2483-f0ecf35235ed",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/users?id=111",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655617648706,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"userName\": \"Dave\"\n}"
+		},
+		{
+			"id": "7343ca5a-0844-e74c-f405-a55060725219",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1655617626930,
+			"name": "http://localhost:8080/users",
+			"description": "",
+			"collectionId": "4a7f0a45-b2eb-1356-2483-f0ecf35235ed",
+			"responses": [],
+			"rawModeData": "{\n\t\"userName\": \"Jone\",\n\t\"id\": 111,\n\t\"address\": \"102, Green Street, Near IT company\"\n}"
+		},
+		{
+			"id": "8397f308-3f6c-05c2-a146-28e8d78c4d12",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users?id=111",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "111",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4a7f0a45-b2eb-1356-2483-f0ecf35235ed",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/users?id=111",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655617641358,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fdd52274-6af3-b84a-2d28-11dda83418e6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/info",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4a7f0a45-b2eb-1356-2483-f0ecf35235ed",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/info",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655530858451,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"userName\": \"alex\"}"
+		}
+	]
+}
